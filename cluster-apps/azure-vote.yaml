@@ -76,3 +76,10 @@ spec:
   - port: 80
   selector:
     app: azure-vote-front
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: purvaj
+  name: purvaj
